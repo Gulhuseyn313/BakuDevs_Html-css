@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+
+.logo {
+  width: 150px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+header .navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation nav ul li {
+  display: inline-block;
+  margin: 50px;
+}
+
+.navcourses {
+  color: black;
+}
+
+.qeydiyyat {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #008d96;
+}
+
+.register {
+  background-color: #008d96;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.kurslar {
+  background-color: #008d96;
+  border-radius: 15px;
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.include {
+  border: 1px solid;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+p {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+p span {
+  color: #f5af15;
+}
+
+.bbbb {
+  width: 50%;
+  text-align: right;
+}
+
+.container .services .row .FourPaper div {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  text-align: center;
+  border-radius: 17px;
+}
+
+.registering {
+  font-weight: bold;
+}
+footer {
+  height: 300px;
+  width: 100%;
+  margin: 0px auto;
+  background: url("./photos/footer\ bg\ 1.png");
+}
+
+.core_div {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.divs_footer {
+  padding: 25px;
+  color: white;
+}
+
+.second_div_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  border-top: 1px solid white;
+}
+
+.right {
+  color: white;
+}
+.email_input {
+  margin-top: 30px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.banner img {
+  width: 100%;
+}
+.banner .xxx {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+
+.banner {
+  position: relative;
+}
+.fourinone {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.first {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  background-color: bisque;
+  border-radius: 25px;
+  border: 2px solid #f4d2b8;
+  box-sizing: border-box;
+}
+
+.call {
+  color: white;
+}
+.envelope {
+  color: white;
+}
+.whatsapp {
+  color: white;
+}
+.share {
+  color: white;
+}
+
+.first div {
+  width: 50px;
+  height: 50px;
+  background-color: #f5af15;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.icons_share {
+  width: 100% !important;
+  background-color: bisque !important;
+}
+
+.icons_share div {
+  background-color: bisque !important;
+  width: 30px !important;
+  height: 30px !important;
+  border: 1px solid;
+  border-radius: 5px !important;
+}
+
+.last_Div {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.three {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.input_last_div {
+  display: flex;
+  padding-top: 100px;
+}
+.last_Div_section {
+  background-color: #e3f1f2;
+}
+.one {
+  width: 800px;
+  height: 200px;
+}
+
+.forBtn a {
+  padding: 10px 70px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.forBtn {
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.sameclass {
+  width: 500px;
+  border-radius: 10px;
+  height: 40px;
+}
+.message {
+  width: 500px;
+  border-radius: 10px;
+  height: 150px;
+}

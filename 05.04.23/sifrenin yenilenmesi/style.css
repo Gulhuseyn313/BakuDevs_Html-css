@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  background-color: rgb(224, 224, 224);
+} */
+
+.logo {
+  width: 150px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+header .navigation {
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+.navigation nav ul li {
+  display: inline-block;
+  margin: 50px;
+}
+
+.navcourses {
+  color: black;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+footer {
+  height: 320px;
+  width: 100%;
+  margin: 0px auto;
+  background: url("./photos/footer\ bg\ 1.png");
+  padding-top: 50px;
+}
+
+.core_div {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.divs_footer {
+  padding: 25px;
+  color: white;
+}
+
+.second_div_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  border-top: 1px solid white;
+}
+
+.right {
+  color: white;
+}
+div {
+  text-align: left;
+}
+.email_input {
+  margin-top: 30px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.maindiv {
+  margin: 0 auto;
+  width: 600px;
+  height: 300px;
+  /* background-color: red; */
+  border: 1px solid rgba(1, 94, 100, 0.1);
+  border-radius: 15px;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+a {
+  text-decoration: none;
+  color: #008d96;
+}
+
+.email_icon {
+  position: absolute;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.email_form {
+  position: relative;
+}
+.inputtt {
+  width: 90%;
+  height: 60px;
+  padding-left: 40px;
+  background-color: rgba(246, 246, 247, 1);
+  border: none;
+}
+
+.forbtn {
+  background-color: #008d96;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px;
+  border-radius: 15px;
+  width: 170px;
+  margin: 0 auto;
+}
+
+.test {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.testt {
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+.include {
+  border: 1px solid;
+  border-radius: 15px;
+  padding: 5px;
+}
+.register {
+  background-color: #008d96;
+  border-radius: 10px;
+  padding: 5px;
+}
+.register a {
+  color: white;
+}

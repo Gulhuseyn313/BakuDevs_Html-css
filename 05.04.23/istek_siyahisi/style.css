@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 150px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+header .navigation {
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+.navigation nav ul li {
+  display: inline-block;
+  margin: 50px;
+}
+
+.navcourses {
+  color: black;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0px auto;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+footer {
+  height: 320px;
+  width: 100%;
+  margin: 0px auto;
+  background: url("./photos/footer\ bg\ 1.png");
+  padding-top: 50px;
+}
+
+.core_div {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.divs_footer {
+  padding: 25px;
+  color: white;
+}
+
+.right {
+  color: white;
+}
+div {
+  text-align: left;
+}
+.email_input {
+  margin-top: 30px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.main_div {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  gap: 30px;
+  height: 260px;
+}
+a {
+  text-decoration: none;
+  color: #008d96;
+}
+.no-bullet a {
+  color: rgba(147, 147, 147, 1);
+  padding: 20px;
+}
+.no-bullet .colorful {
+  color: #008d96;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.email_form {
+  position: relative;
+}
+.register {
+  background-color: #008d96;
+  border-radius: 10px;
+  padding: 5px;
+}
+.register a {
+  color: white;
+}
+.routing {
+  border: 1px solid rgba(1, 94, 100, 0.06);
+  border-radius: 15px;
+  height: 300px;
+  width: 250px;
+  text-align: center;
+}
+
+.routing h1 {
+  background-color: #008d96;
+  color: white;
+  border-radius: 15px 15px 0 0;
+  padding: 10px 0;
+}
+.my_ul {
+  display: inline-block;
+  text-align: left;
+  padding-top: 20px;
+}
+.icon {
+  color: #008d96;
+}
+.no-bullet {
+  list-style-type: none;
+  color: rgba(147, 147, 147, 1);
+  padding-bottom: 10px;
+}
+
+.frontend_paper {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 33%;
+  height: 300px;
+  box-shadow: 2px 8px 20px rgba(0, 0, 0, 0.09);
+}
+
+.lessonVideo {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px;
+}
+
+.papers {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.papers .frontend_paper .courseTitle {
+  background-color: bisque;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.papers .frontend_paper .lessonCountIcon {
+  padding: 5px 7px;
+  border-radius: 50%;
+  font-size: 14px;
+  border: 1px dashed #ddd;
+  float: right;
+}
+.papers .frontend_paper .lessonCount {
+  float: right;
+}
+
+.frontend_paper img {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.coursePlayButton {
+  background-color: #008d96;
+  padding: 6px 8px;
+  font-size: 15px;
+  border-radius: 50%;
+  color: #fff;
+  float: right;
+}
+
+.watchLessons strong {
+  font-size: 18px;
+}
