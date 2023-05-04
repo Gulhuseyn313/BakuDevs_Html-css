@@ -18,6 +18,10 @@ header .navigation {
   background-color: white;
 }
 
+.colorWhite {
+  color: white;
+}
+
 .navigation nav ul li {
   display: inline-block;
   margin: 50px;

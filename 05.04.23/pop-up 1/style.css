@@ -21,7 +21,9 @@ header .navigation {
   display: inline-block;
   margin: 50px;
 }
-
+.colorWhite{
+  color: white;
+}
 .navcourses {
   color: black;
 }

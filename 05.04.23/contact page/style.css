@@ -14,7 +14,9 @@ body {
 .logo img {
   width: 100%;
 }
-
+.colorWhite{
+  color: white;
+}
 header .navigation {
   display: flex;
   align-items: center;

@@ -15,6 +15,9 @@ body {
   width: 100%;
 }
 
+.colorWhite{
+  color: white;
+}
 header .navigation {
   display: flex;
   align-items: center;
